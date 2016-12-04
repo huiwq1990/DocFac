@@ -8,7 +8,7 @@
 ./logstash -e '
 input {
 	tcp {
-		host => "123.57.230.238"
+		host => "127.0.0.1"
 		port => 5000
 		mode => "server"
 		tags => ["tags"]
