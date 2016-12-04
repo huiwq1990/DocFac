@@ -24,3 +24,12 @@ groupadd zhiyin
 useradd zhiyin -g zhiyin -p zhiyin8080
 
 chown -R zhiyin:zhiyin .
+
+
+
+### kibana配置
+```
+server.host: "123.57.230.238"
+elasticsearch.url: "http://localhost:9200"
+```
+
